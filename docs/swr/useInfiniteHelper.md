@@ -37,7 +37,7 @@ The `useInfiniteHelper` hook is designed to work with SWR's infinite loading cap
 
 ```jsx
 import React from 'react';
-import useInfiniteHelper from './useInfiniteHelper'; // Adjust the path as necessary
+import { useInfiniteHelper } from 'ventos-hook-lib';
 import useSWRInfinite from 'swr/infinite';
 ```
 

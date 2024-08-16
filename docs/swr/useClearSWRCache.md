@@ -19,7 +19,7 @@ import useClearSWRCache from './useClearSWRCache'; // Adjust the path as necessa
 
 ```jsx
 import React from 'react';
-import useClearSWRCache from './useClearSWRCache'; // Adjust the path as necessary
+import { useClearSWRCache } from 'ventos-hook-lib';
 
 const CacheClearer = () => {
   const clearCache = useClearSWRCache();

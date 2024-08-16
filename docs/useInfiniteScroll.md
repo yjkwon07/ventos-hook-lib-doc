@@ -29,7 +29,7 @@ Here's how you might use the useInfiniteScroll hook in a React component:
 
 ```jsx
 import React, { useState, useRef, useEffect } from 'react';
-import useInfiniteScroll from './useInfiniteScroll'; // Adjust the path as necessary
+import { useInfiniteScroll } from 'ventos-hook-lib';
 
 const InfiniteScrollComponent = () => {
   const [items, setItems] = useState<string[]>([]);
