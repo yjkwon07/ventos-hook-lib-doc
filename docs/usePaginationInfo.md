@@ -35,7 +35,7 @@ Here’s how you might use the usePaginationInfo hook in a React component:
 
 ```tsx
 import React, { useState } from 'react';
-import usePaginationInfo from './usePaginationInfo'; // Adjust the path as necessary
+import { usePaginationInfo } from 'ventos-hook-lib';
 
 const PaginationComponent = ({ totalCount, rowsPerPage, numOfPagination }) => {
   const [curPage, setCurPage] = useState(1);

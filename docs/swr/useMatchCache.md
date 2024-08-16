@@ -25,7 +25,7 @@ The `useMatchCache` hook provides a way to interact with the SWR cache by matchi
 
 ```jsx
 import React from 'react';
-import useMatchCache from './useMatchCache'; // Adjust the path as necessary
+import { useMatchCache } from 'ventos-hook-lib';
 import { useSWRConfig } from 'swr';
 ```
 

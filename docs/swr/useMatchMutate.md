@@ -97,14 +97,14 @@ Parameters for the useMatchMutate hook.
 
 ```jsx
 import React from 'react';
-import useMatchMutate from './useMatchMutate'; // Adjust the path as necessary
+import { useMatchMutate } from 'ventos-hook-lib';
 ```
 
 ### Use the useMatchMutate hook in your component (revalidate: true):
 
 ```jsx
 import React from 'react';
-import useMatchMutate from './useMatchMutate'; // Adjust the path as necessary
+import { useMatchMutate } from 'ventos-hook-lib';
 
 const MyComponent = () => {
   const matchMutate = useMatchMutate();
@@ -183,7 +183,7 @@ export default MyComponent;
 
 ```jsx
 import React from 'react';
-import useMatchMutate from './useMatchMutate'; // Adjust the path as necessary
+import { useMatchMutate } from 'ventos-hook-lib';
 
 const MyComponent = () => {
   const matchMutate = useMatchMutate();
